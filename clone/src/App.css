@@ -1,0 +1,38 @@
+body{
+  background-color: #F0EBF8;
+  width: 100%;
+  
+  
+}
+.m-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1em;
+  align-items: center;
+}
+
+.title-container{
+    background-color: #ffffff;
+    border:1px solid #DADCED;
+    height: auto;
+    width: 41em;
+    padding: 2em 2em 2em 2em;
+    border-radius: 10px;
+} 
+
+.radio-dot {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid #888;
+  background-color: #673AB7;
+  margin-right: 5px;
+  
+}
+
+.check-box{
+  width: 20px;
+  height: 16px;
+}

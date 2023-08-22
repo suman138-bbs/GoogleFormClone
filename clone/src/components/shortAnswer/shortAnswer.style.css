@@ -1,0 +1,29 @@
+.underline-input {
+    position: relative;
+    margin-bottom: 20px;
+    /* Optional: Adjust spacing */
+}
+
+.underline {
+    border: none;
+    outline: none;
+    /* Remove default focus outline */
+    width: 50%;
+    /* Full-width input */
+    padding: 5px 0;
+    /* Optional: Adjust padding */
+    font-size: 16px;
+    /* Optional: Adjust font size */
+    background-color: transparent;
+    /* Transparent background */
+    border-bottom: 1px solid #000;
+    /* Initial black bottom line */
+    transition: #673AB7 1s ease-in-out;
+    /* Smooth color transition on focus */
+}
+
+.underline:focus {
+    border-bottom: 2px solid #000;
+    border-bottom-color: #673AB7;
+    /* Change color on focus */
+}
